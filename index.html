@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="./src/css/estilos.css">
+
+  <!-- CSS do Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+  <!-- JS do Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Seu JS (defer garante que só roda depois do HTML) -->
+  <script src="./src/comandos/mapa.js" defer></script>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <title>Mocotattoo - Estúdio de Tatuagem</title>
+</head>
+<body>
+  <!-- Título punk/grunge -->
+  <header class="titulo-com-maquina">
+    <h1 class="titulo-punk">Studio<br>Mocotattoo</h1>
+  </header>
+
+  <!-- Seção Sobre Mim -->
+  <section class="apresentacao">
+    <div class="texto-apresentacao">
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou o <strong>Magrão</strong>, tatuador da lendária <strong>Casa Monstro</strong>.<br>
+        Cada traço que faço é pensado para transformar ideias em arte única.<br>
+        Com anos de experiência, desenvolvi uma técnica que combina precisão e criatividade.<br>
+        Transformo ideias em tatuagens originais, que refletem a personalidade de cada cliente.<br>
+        Na Casa Monstro, buscamos mais do que estética: criamos experiências memoráveis.<br>
+        Cada sessão é conduzida com atenção, segurança e conforto máximos.<br>
+        Valorizo o detalhe, o conceito e o impacto emocional de cada desenho.<br>
+        Meu trabalho é dedicado a fazer da pele uma tela de arte viva.<br>
+        Aqui, cada tatuagem não é apenas um desenho, é uma história gravada.<br>
+        Seja qual for sua ideia, eu faço ela se tornar realidade, com qualidade e paixão.
+      </p>
+    </div>
+
+    <div class="imagem-apresentacao">
+      <img src="./src/imagens/Artista de Tatuagem no Estúdio.png" alt="Magrão tatuador">
+      <!-- Ícone do Instagram -->
+      <a href="https://www.instagram.com/seuusuario" target="_blank" class="instagram-icon">
+        <img src="./src/imagens/Imagem_instagram.webp" alt="Instagram">
+      </a>
+    </div>
+  </section>
+
+  <!-- Certificados / Apresentação -->
+  <section class="fotos-magrao">
+  <img src="./src/imagens/magrao-certificados.png" alt="Certificados" class="imagem-esquerda">
+
+  <div class="texto-central">
+    <p>
+      Aqui, sua arte é levada a sério. Contamos com os melhores certificados de tatuagem e equipamentos de última geração.
+      Cada detalhe é pensado para sua segurança e conforto. Enquanto espera, sinta-se à vontade e inspire-se.
+      É o momento perfeito para transformar sua ideia em tatuagem. Eu estarei pronto para criar algo único e especial na sua pele.
+      Não adie a arte que você sempre quis — sua história merece ser registrada. Relaxe, respire e prepare-se para viver essa experiência única.
+    </p>
+  </div>
+
+  <img src="./src/imagens/magrao-equipagamentos.png" alt="Equipamentos" class="imagem-direita">
+</section>
+
+  <!-- Comentários -->
+  <section class="comentarios-container-grande">
+    <div class="comentarios-container">
+      <!-- Comentário Davi -->
+      <div class="retangulo-comentario2">
+        <img src="./src/imagens/Davi-bbb.png" alt="Foto Davi" class="foto-comentario">
+        <p class="texto-comentario2">
+          Perguntei pros meus amigos os melhores tatuadores e me indicaram você, mano.
+          Queria uma tattoo inovadora, mas não fazia ideia do que fazer.
+          Aí você falou: "Deixa comigo, vou mandar a tattoo", e eu fiquei tipo: "DI QUÊ?!", e adorei...
+          Valeu demais, Calabreso!
+        </p>
+      </div>
+
+      <!-- Comentário Mike Tyson -->
+      <div class="retangulo-comentario2">
+        <img src="./src/imagens/Mike_Tyson.jpg" alt="Foto Mike Tyson" class="foto-comentario">
+        <p class="texto-comentario2">Parabéns ao Magrão! Valeu, ficou f***a, mano!!</p>
+      </div>
+
+      <!-- Comentário Post Malone -->
+      <div class="retangulo-comentario3">
+        <img src="./src/imagens/post malone.jpg" alt="Foto Post Malone" class="foto-comentario">
+        <p class="texto-comentario3">Valeu, mano, você é lenda! Mal posso esperar pra mostrar por aí.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section class="galeria">
+    <h2>Meus Trabalhos:</h2>
+
+    <div class="linha-galeria">
+      <img src="./src/imagens/Ataque_Ao_Titân.png" alt="Tatuagem 1">
+      <img src="./src/imagens/Borboleta.png" alt="Tatuagem 2">
+      <img src="./src/imagens/Casa_monstro.jpg" alt="Tatuagem 3">
+    </div>
+
+    <div class="linha-galeria">
+      <img src="./src/imagens/Hunter_X_Hunter.png" alt="Tatuagem 4">
+      <img src="./src/imagens/Intestelar.jpg" alt="Tatuagem 5">
+      <img src="./src/imagens/Itachi.png" alt="Tatuagem 6">
+    </div>
+
+    <div class="linha-galeria">
+      <img src="./src/imagens/Kang_fu_Berserk.png" alt="Tatuagem 7">
+      <img src="./src/imagens/Tekken.png" alt="Tatuagem 8">
+      <img src="./src/imagens/Yu_Gi_Oh.png" alt="Tatuagem 9">
+    </div>
+  </section>
+
+  <!-- Localização -->
+  <section class="mapa-localizacao">
+    <h2>Localização</h2>
+    <div id="map"></div>
+  </section>
+
+  <!-- Agendamento -->
+<section class="agendamento">
+ <h2>Agende comigo</h2>
+<form id="formAgendamento" action="http://localhost:8080/Formularios/AgendamentoServlet" method="POST"> 
+ <input type="text" name="nome" placeholder="Seu nome" required>
+ <input type="email" name="email" placeholder="Seu e-mail" required>
+ <input type="tel" name="telefone" placeholder="Seu telefone" required>
+ <button type="submit">Enviar</button>
+</form>
+</section>
+  <!-- Copyright -->
+  <section class="copyright">
+    <p>© Copyright 2025 – Todos os direitos reservados.</p>
+  </section>
+</body>
+</html> 
