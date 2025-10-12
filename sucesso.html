@@ -5,66 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agendamento Enviado</title>
   <link rel="stylesheet" href="./src/css/estilos.css">
-  <style>
-    /* Full screen com imagem de fundo */
-    body, html {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      font-family: Arial, sans-serif;
-      overflow: hidden;
-    }
-
-    .sucesso-container {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-    }
-
-    .sucesso-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .sucesso-container h2 {
-      position: absolute;
-      top: 2%;
-      left: 50%;
-      transform: translate(-50%, 0);
-      color: white;
-      font-size: 48px;
-      text-shadow: 2px 2px 4px #000;
-      text-align: center;
-    }
-
-    /* Botão de voltar */
-    .sucesso-container a {
-      position: absolute;
-      bottom: 5%;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 12px 24px;
-      background-color: #800080;
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      border-radius: 8px;
-      transition: 0.2s;
-    }
-
-    .sucesso-container a:hover {
-      background-color: #DA70D6;
-      color: black;
-    }
-  </style>
 </head>
 <body>
-  <div class="sucesso-container">
-    <img src="./src/imagens/Imagem-sucesso.png" alt="Sucesso">
-    <h2>Agendamento enviado com sucesso ✅</h2>
-    <a href="index.html">Voltar para o site</a>
+  <div class="sucesso-container" style="position: relative; width: 100%; height: 100vh;">
+    <img src="./src/imagens/Imagem-sucesso.png" alt="Sucesso" style="width:100%; height:100%; object-fit:cover;">
+    <h2 style="position:absolute; top:10%; left:50%; transform:translate(-50%,0); color:white; font-size:48px; text-shadow:2px 2px 4px #000; font-family:'Creepster', cursive; text-align:center;">
+      Agendamento enviado com sucesso ✅
+    </h2>
+    <a href="index.html" style="position:absolute; bottom:5%; left:50%; transform:translateX(-50%); padding:12px 24px; background-color:#800080; color:white; text-decoration:none; font-size:1.2rem; border-radius:8px; font-family:'Creepster', cursive;">
+      Voltar para o site
+    </a>
   </div>
 </body>
-</html
+</html>
