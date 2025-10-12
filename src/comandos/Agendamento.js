@@ -1,4 +1,4 @@
-const form = document.getElementById('agendamentoForm');
+const form = document.getElementById('sucesso.html');
 
 if(form){
   form.addEventListener('submit', function(e){
