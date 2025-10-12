@@ -6,53 +6,65 @@
   <title>Agendamento Enviado</title>
   <link rel="stylesheet" href="./src/css/estilos.css">
   <style>
-    /* Estilo específico para a página de sucesso */
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+    /* Full screen com imagem de fundo */
+    body, html {
       margin: 0;
-      background-color: #0A0A0A;
-      color: #fff;
-      font-family: 'Creepster', cursive;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .sucesso-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .sucesso-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .sucesso-container h2 {
+      position: absolute;
+      top: 2%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      color: white;
+      font-size: 48px;
+      text-shadow: 2px 2px 4px #000;
       text-align: center;
     }
 
-    .sucesso-imagem {
-      width: 200px;
-      height: auto;
-      margin: 20px 0;
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #DA70D6;
-      text-shadow: 2px 2px 4px #000;
-    }
-
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 20px;
+    /* Botão de voltar */
+    .sucesso-container a {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px 24px;
       background-color: #800080;
-      color: #fff;
+      color: white;
       text-decoration: none;
+      font-size: 1.2rem;
       border-radius: 8px;
       transition: 0.2s;
     }
 
-    a:hover {
+    .sucesso-container a:hover {
       background-color: #DA70D6;
-      color: #000;
+      color: black;
     }
   </style>
 </head>
 <body>
-  <h1>Agendamento enviado com sucesso!</h1>
-  <img src="./src/imagens/sucesso.png" alt="Sucesso" class="sucesso-imagem">
-  <p>Obrigado por agendar comigo! Entrarei em contato em breve.</p>
-  <a href="index.html">Voltar para o site</a>
+  <div class="sucesso-container">
+    <img src="./src/imagens/Imagem-sucesso.png" alt="Sucesso">
+    <h2>Agendamento enviado com sucesso ✅</h2>
+    <a href="index.html">Voltar para o site</a>
+  </div>
 </body>
-</html>
+</html
