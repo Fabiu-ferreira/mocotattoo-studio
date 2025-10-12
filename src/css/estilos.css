@@ -351,14 +351,4 @@ section.copyright {
     box-sizing: border-box;
 }
 
-/* Ajuste da mensagem de sucesso/erro em telas pequenas */
-@media (max-width: 600px) {
-    #mensagem h2 {
-        top: 10%; /* mais perto do topo */
-        font-size: 1.5rem; /* diminui o tamanho da fonte */
-    }
-    #mensagem img {
-        width: 100%; /* garante que a imagem cubra toda a tela no celular */
-        height: auto;
-    }
-}
+
