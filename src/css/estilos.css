@@ -365,40 +365,8 @@ header {
   text-align: center;
 }
 
-.agendamento, .sucesso-agendamento {
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 
-.agendamento input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-}
 
-.agendamento button {
-  width: 100%;
-  padding: 10px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.agendamento button:hover {
-  background-color: #444;
-}
-
-.imagem-sucesso {
-  display: block;
-  margin: 20px auto;
-  width: 200px;
-}
 
 
 
